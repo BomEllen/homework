@@ -4,6 +4,10 @@
 
 </br>
 
+<p align="center">
+<img src=https://github.com/user-attachments/assets/d96bffb6-944b-408e-8e0f-0e17ab1f7cd1 />
+</p>
+
 ## 🕒 과제 기간
 
 &emsp; 2024.09.23 ~
