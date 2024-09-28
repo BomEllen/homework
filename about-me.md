@@ -1,16 +1,16 @@
-![header](https://capsule-render.vercel.app/api?type=cylinder&color=ADC2A9&fontColor=FEF5ED&height=250&section=header&text=About_ME&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=ADC2A9&fontColor=FEF5ED&height=150&section=header&text=About_ME&fontSize=80)
 
 ## 반갑습니다. 정주연 입니다😊
 
----
+</br>
 
-</br>
-</br>
+
+![ccd2860b506692b249f81cf5e1da2920b701a53b](https://github.com/user-attachments/assets/0f8cca46-8e7a-4781-8836-85c938dbf583)
 
 > 어제의 나보다 더 나은 사람이 되자 </br>
 > 남보다 뛰어나다고 해서 고귀한 자가 되는 것은 아니다. </br>
 > 과거의 자신보다 우수한 자가 </br>
-> 결국에는 고귀한 사람이 되는 것이다.</br> > \- 헤밍웨이
+> 결국에는 고귀한 사람이 되는 것이다.</br> \- 헤밍웨이
 
 </br>
 
