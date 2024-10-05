@@ -1,0 +1,58 @@
+body {
+  display: flex; /* 페이지 전체를 flex 컨테이너로 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  height: 100vh;
+  margin: 0; /* 기본 마진 제거 */
+}
+
+.images {
+  display: flex; /* 이미지 섹션을 flex 컨테이너로 설정 */
+  flex-direction: column; /* 수직 정렬 */
+  align-items: center; /* 수평 중앙 정렬 */
+}
+
+.woman,
+.man {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.woman picture,
+.man picture {
+  margin: 0 10px;
+  position: relative;
+}
+
+.woman picture:first-child,
+.man picture:first-child {
+  margin-left: 0; /* 첫 번째 이미지 왼쪽 마진 0으로 설정 */
+}
+
+.woman picture:last-child,
+.man picture:last-child {
+  margin-right: 0; /* 마지막 이미지 오른쪽 마진 0으로 설정 */
+}
+
+.woman img,
+.man img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.circle {
+  position: absolute; /* 이미지를 상대적 위치로 배치 */
+  bottom: 0;
+  right: 0;
+  width: 17.78px;
+  height: 17.78px;
+  border: 0.1em solid rgb(226, 226, 226);
+  border-radius: 50%;
+  background-color: #dbdbdb;
+}
+
+.circle-green {
+  background-color: #4cfe88;
+}
