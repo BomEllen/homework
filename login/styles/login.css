@@ -1,0 +1,45 @@
+@import "./../mini-reset.css";
+@import "./../a11y.css";
+
+body {
+  margin: 40px;
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
+}
+
+.logo {
+  width: 230px;
+}
+
+/* 로그인 상태유지 체크박스 */
+.login-checkbox {
+  padding-top: 10px; /* 위쪽 여백 */
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 29px; /* 체크박스 오른쪽 여백을 5px로 하라고 하셨는데 이미지가 24px이니까 패딩을 5px 더한 29 주기 */
+}
+input[type="checkbox"] + label::before {
+  display: block;
+  content: "";
+  font-size: 20px;
+  width: 24px;
+  height: 24px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: blue;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-image: url("./../../assets/login/checked.png");
+}
+input[type="checkbox"]:not(:checked) + label::before {
+  background-image: url("./../../assets/login/unchecked.png");
+}
