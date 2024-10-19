@@ -1,0 +1,119 @@
+@import url(card-component.css);
+@import url(./reset.css);
+@import url(./base.css);
+@import url(./theme.css);
+
+body {
+  background-color: pink;
+  margin-top: var(--large-spacing);
+}
+
+button {
+  font-size: var(--xx-small-text);
+  padding-block: var(--x-small-spacing);
+  padding-inline: var(--small-spacing);
+  border-radius: 1.875rem;
+  border: none;
+}
+
+/* 카드 레이아웃 */
+.ipad-pro-card {
+  border: 2px solid red;
+  color: var(--white);
+  width: 100%;
+  height: var(--size);
+  background: url(./../products/ipad_pro.jpeg) no-repeat center;
+  background-size: cover;
+}
+.ipad-air-card {
+  border: 2px solid red;
+  color: var(--white);
+  width: 100%;
+  height: var(--size);
+  background: url(./../products/ipad_air.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+/* content 요소 레이아웃 */
+.odd-content {
+  gap: var(--small-spacing);
+
+  text-align: center;
+  .title {
+    font-size: var(--large-text);
+    font-weight: 700;
+  }
+  .sub-title {
+    font-size: var(--base-text);
+    margin-block: var(--small-spacing);
+    line-height: var(--line-normal);
+    font-weight: 500;
+  }
+  .notice {
+    font-size: var(--small-text);
+    color: var(--gray);
+    margin-block: var(--small-spacing);
+  }
+  .full-color-button-blue {
+    margin-right: var(--base-spacing);
+    background-color: var(--blue-300);
+    color: var(--white);
+  }
+  .empty-color-button-blue {
+    background-color: transparent;
+    border: 1px solid var(--blue-300);
+    color: var(--blue-300);
+  }
+  .full-color-button-black {
+    margin-right: var(--base-spacing);
+    background-color: var(--black);
+    color: var(--white);
+  }
+  .empty-color-button-black {
+    background-color: transparent;
+    border: 1px solid var(--black);
+    color: var(--black);
+  }
+}
+
+.even-content {
+  gap: var(--small-spacing);
+  color: var(--black);
+
+  text-align: center;
+  .title {
+    font-size: var(--large-text);
+    font-weight: 700;
+  }
+  .sub-title {
+    font-size: var(--base-text);
+    margin-block: var(--small-spacing);
+    line-height: var(--line-normal);
+    font-weight: 500;
+  }
+  .notice {
+    font-size: var(--small-text);
+    color: var(--gray);
+    margin-block: var(--small-spacing);
+  }
+  .full-color-button-blue {
+    margin-right: var(--base-spacing);
+    background-color: var(--blue-300);
+    color: var(--white);
+  }
+  .empty-color-button-blue {
+    background-color: transparent;
+    border: 1px solid var(--blue-300);
+    color: var(--blue-300);
+  }
+  .full-color-button-black {
+    margin-right: var(--base-spacing);
+    background-color: var(--black);
+    color: var(--white);
+  }
+  .empty-color-button-black {
+    background-color: transparent;
+    border: 1px solid var(--black);
+    color: var(--black);
+  }
+}
