@@ -166,7 +166,7 @@ button {
   }
 }
 
-/* 사용자 기기 해상도에 따른 이미지 */
+/* 사용자 기기 해상도에 따른 이미지 미디어쿼리 */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .ipad-pro-card {
     background-image: url(./../products/ipad_pro_2x.jpeg);
@@ -191,5 +191,28 @@ button {
   }
 }
 
+/* 화면 사이즈에 따른 미디어 쿼리 */
 @media (min-width: 1024px) {
+  .ipad-air-card {
+    background-image: url(./../products/ipad_air_wide.jpeg);
+  }
+  .ipad-pro-card {
+    background-image: url(./../products/ipad_pro_wide.jpeg);
+  }
+  .iphone-15-pro-card {
+    background-image: url(./../products/iphone15_pro_wide.jpeg);
+  }
+}
+
+/* 화면 사이즈와 해상도를 모두 고려한 미디어쿼리 */
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px), (min-resolution: 192dpi) and (min-width: 1024px) {
+  .ipad-air-card {
+    background-image: url(./../products/ipad_air_wide_2x.jpeg);
+  }
+  .ipad-pro-card {
+    background-image: url(./../products/ipad_pro_wide_2x.jpeg);
+  }
+  .iphone-15-pro-card {
+    background-image: url(./../products/iphone15_pro_wide_2x.jpeg);
+  }
 }
