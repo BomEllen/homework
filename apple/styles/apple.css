@@ -193,6 +193,21 @@ button {
 
 /* 화면 사이즈에 따른 미디어 쿼리 */
 @media (min-width: 1024px) {
+  button {
+    font-size: var(--x-small-text);
+  }
+  .sub-title {
+    font-size: var(--medium-text);
+  }
+  .title {
+    font-size: var(--extra-large-text);
+  }
+  .even-content {
+    padding-top: var(--extra-large-spacing);
+  }
+  .odd-content {
+    padding-top: var(--extra-large-spacing);
+  }
   .ipad-air-card {
     background-image: url(./../products/ipad_air_wide.jpeg);
   }
